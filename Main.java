@@ -1,4 +1,4 @@
-package Parcial2;
+package Parcial3;
 
 import java.io.FileWriter;
 import java.io.IOException;

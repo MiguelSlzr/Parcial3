@@ -1,5 +1,4 @@
-package Parcial2;
-
+package Parcial3;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -15,8 +14,8 @@ public class Lector {
 			PrintWriter imprimir = null;
 			FileReader leer = null;
 			
-			String path = "D:\\Users\\174720\\eclipse-workspace\\Parcial2\\src\\Parcial2\\emails.csv";
-			//File file = new File(path);
+			String path = "C:\\Users\\PC\\eclipse-workspace\\Examen3\\src\\Parcial3\\emails.csv";
+		
 			
 	        List<String> lista = null;
 	        
@@ -59,7 +58,7 @@ public class Lector {
 	        try {
 	        	
 	        	//file.createNewFile();
-	            FileWriter escritura = new FileWriter("D:\\Users\\174720\\eclipse-workspace\\Parcial2\\src\\Parcial2\\"+ ID +".txt");
+	            FileWriter escritura = new FileWriter("C:\\Users\\PC\\eclipse-workspace\\Examen3\\src\\Parcial3\\"+ ID +".txt");
 	            for (int i = 0; i < sumatoria.length; i++) {
 	            	escritura.write((titulos[i+1]) + ",");
 	                escritura.write(Integer.toString(sumatoria[i]) + "\n");
@@ -72,3 +71,5 @@ public class Lector {
 	      
 	    }
 	}
+			
+			
